@@ -4,36 +4,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
- 
-    <!--
-    	See http://wiki.openmrs.org/display/docs/Module+liquibase+File for 
-    	documentation on this file.
-    
-        See http://www.liquibase.org/manual/home#available_database_refactorings
-        for a list of supported elements and attributes
-    -->
- 
- 	<!-- Uncomment the changeset below if you want to make the Item class persistable, see also Item and EPCareCoreDaoTest -->
- 	<!--
-	<changeSet id="epcarecore-2016-08-02-12-21" author="raff">
-		<preConditions onFail="MARK_RAN">
-			<not><tableExists tableName="epcarecore_item"/></not>
-		</preConditions>
-		<comment>
-			Creating the epcarecore_item table
-		</comment>
-		<createTable tableName="epcarecore_item">
-			<column name="epcarecore_item_id" type="int" autoIncrement="true">
-				<constraints primaryKey="true" nullable="false"/>
-			</column>
-			<column name="uuid" type="char(38)">
-				<constraints nullable="false" unique="true"></constraints>
-			</column>
-			<column name="owner" type="int" />
-			<column name="description" type="varchar(255)" />
-		</createTable>
-        <addForeignKeyConstraint constraintName="epcarecore_item_owner_fk" baseTableName="epcarecore_item" baseColumnNames="owner"  referencedTableName="users"
-                                 referencedColumnNames="user_id" />
-    </changeSet> -->
- 
+    <changeSet id="ugandaemr-20250429-0834" author="slubwama">
+        <preConditions onFail="CONTINUE">
+            <sqlCheck expectedResult="1">
+                select count(*) from global_property where property="ugandaemr.metadata.github.branch.frontend";
+            </sqlCheck>
+        </preConditions>
+        <comment>
+           Change branch to fetch frontend of ePCare distribution
+        </comment>
+        <sql>
+            UPDATE global_property  SET property_value = "pfrontend" WHERE property = "ugandaemr.metadata.github.branch.frontend";
+        </sql>
+    </changeSet>
 </databaseChangeLog>
