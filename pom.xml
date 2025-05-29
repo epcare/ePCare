@@ -100,11 +100,72 @@
 	</build>
 
 
-    <properties>
-        <openmrsPlatformVersion>2.6.3</openmrsPlatformVersion>
-        <ugandaemrVersion>4.1.1</ugandaemrVersion>
+	<properties>
+		<openmrsPlatformVersion>2.6.3</openmrsPlatformVersion>
+
+		<addresshierarchyVersion>2.15.2</addresshierarchyVersion>
+		<adminuiVersion>1.6.0</adminuiVersion>
+		<allergyuiVersion>1.8.4</allergyuiVersion>
+		<appframeworkVersion>2.17.0</appframeworkVersion>
+		<appointmentschedulinguiVersion>1.12.0</appointmentschedulinguiVersion>
+		<appuiVersion>1.17.0</appuiVersion>
+		<attachmentsVersion>3.6.0</attachmentsVersion>
+		<bahmniappointmentVersion>1.6.0</bahmniappointmentVersion>
+		<bedmanagementVersion>6.0.0</bedmanagementVersion>
 		<billingVersion>1.3.0</billingVersion>
+		<calculationVersion>1.3.0</calculationVersion>
+		<cohortModuleVersion>3.4.0</cohortModuleVersion>
+		<coreappsVersion>1.39.0</coreappsVersion>
+		<databaseBackupVersion>1.3.0</databaseBackupVersion>
+		<dataEntryStatisticsVersion>1.8.0</dataEntryStatisticsVersion>
+		<dataexchangeVersion>1.3.8</dataexchangeVersion>
+		<dataintegrityVersion>4.4.4</dataintegrityVersion>
+		<emrapiVersion>1.35.0</emrapiVersion>
+		<eventVersion>2.10.0</eventVersion>
+		<fhir2Version>2.3.0</fhir2Version>
+		<formentryappVersion>1.4.2</formentryappVersion>
+		<formfilterVersion>1.3.0</formfilterVersion>
+		<htmlformentryVersion>5.2.0</htmlformentryVersion>
+		<htmlformentryuiVersion>2.3.0</htmlformentryuiVersion>
+		<htmlwidgetsVersion>1.11.0</htmlwidgetsVersion>
+		<idgenVersion>4.10.0</idgenVersion>
+		<jacksonVersion>1.8.3</jacksonVersion>
+		<junitParamsVersion>1.0.4</junitParamsVersion>
 		<labmanagementVersion>1.0.0-SNAPSHOT</labmanagementVersion>
+		<legacyuiVersion>1.16.0</legacyuiVersion>
+		<metadatadeployVersion>1.13.0</metadatadeployVersion>
+		<metadatamappingVersion>1.6.0</metadatamappingVersion>
+		<metadatasharingVersion>1.9.0</metadatasharingVersion>
+		<o3formsVersion>2.3.0</o3formsVersion>
+		<openconceptlabModuleVersion>2.4.0</openconceptlabModuleVersion>
+		<openmrsAtomfeedVersion>2.6.1</openmrsAtomfeedVersion>
+		<openmrsOwaVersion>1.14.0</openmrsOwaVersion>
+		<openmrsTestutilsVersion>1.3</openmrsTestutilsVersion>
+		<openwebappsVersion>1.13.0</openwebappsVersion>
+		<orderTemplatesVersion>1.0.3</orderTemplatesVersion>
 		<orderexpansionVersion>1.0.0</orderexpansionVersion>
-    </properties>
+		<patientFlagsVersion>3.0.8</patientFlagsVersion>
+		<patientqueueingVersion>1.3.2</patientqueueingVersion>
+		<providermanagementVersion>2.13.0</providermanagementVersion>
+		<referenceapplicationVersion>2.13.0</referenceapplicationVersion>
+		<referencemetadataVersion>2.12.0</referencemetadataVersion>
+		<registrationappVersion>1.24.0</registrationappVersion>
+		<registrationcoreVersion>1.11.0</registrationcoreVersion>
+		<reportingCompatibilityVersion>2.0.9</reportingCompatibilityVersion>
+		<reportingRestVersion>1.14.0</reportingRestVersion>
+		<reportingUIVersion>1.8.0</reportingUIVersion>
+		<reportingVersion>1.25.0</reportingVersion>
+		<serializationxstreamVersion>0.2.16</serializationxstreamVersion>
+		<spaModuleVersion>2.0.0</spaModuleVersion>
+		<stockmanagementVersion>1.4.4</stockmanagementVersion>
+		<uicommonsVersion>2.19.0</uicommonsVersion>
+		<uiframeworkVersion>3.24.0</uiframeworkVersion>
+		<uilibraryVersion>2.0.7</uilibraryVersion>
+		<ugandaemrReportsVersion>2.1.4</ugandaemrReportsVersion>
+		<ugandaemrSyncVersion>1.3.13</ugandaemrSyncVersion>
+		<ugandaemrVersion>4.1.1</ugandaemrVersion>
+		<ugandaemrfingerprintVersion>1.1.0</ugandaemrfingerprintVersion>
+		<webservices.restModuleVersion>2.47.0</webservices.restModuleVersion>
+		<xformsVersion>4.3.12</xformsVersion>
+	</properties>
 </project>
