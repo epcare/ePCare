@@ -11,10 +11,10 @@
             </sqlCheck>
         </preConditions>
         <comment>
-           Change branch to fetch frontend of ePCare distribution
+           Change branch to fetch frontend of prisonemr distribution
         </comment>
         <sql>
-            UPDATE global_property  SET property_value = "pfrontend" WHERE property = "ugandaemr.metadata.github.branch.frontend";
+            UPDATE global_property  SET property_value = "prisonemrfrontend" WHERE property = "ugandaemr.metadata.github.branch.frontend";
         </sql>
     </changeSet>
 </databaseChangeLog>
