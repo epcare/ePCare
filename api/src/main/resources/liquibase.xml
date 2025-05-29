@@ -4,17 +4,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
-    <changeSet id="ugandaemr-20250429-0834" author="slubwama">
+    <changeSet id="epcarecore-20250529-0834" author="slubwama">
         <preConditions onFail="CONTINUE">
             <sqlCheck expectedResult="1">
                 select count(*) from global_property where property="ugandaemr.metadata.github.branch.frontend";
             </sqlCheck>
         </preConditions>
         <comment>
-           Change branch to fetch frontend of prisonemr distribution
+           Change branch to fetch frontend of ePCare distribution
         </comment>
         <sql>
-            UPDATE global_property  SET property_value = "prisonemrfrontend" WHERE property = "ugandaemr.metadata.github.branch.frontend";
+            UPDATE global_property  SET property_value = "pfrontend" WHERE property = "ugandaemr.metadata.github.branch.frontend";
         </sql>
     </changeSet>
 </databaseChangeLog>
