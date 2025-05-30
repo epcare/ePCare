@@ -21,6 +21,7 @@
 		<connection>scm:git:git@github.com:openmrs/openmrs-module-epcarecore.git</connection>
 		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-epcarecore.git</developerConnection>
 		<url>https://github.com/openmrs/openmrs-module-epcarecore/</url>
+		<tag>HEAD</tag>
 	</scm>
 
 	<modules>
@@ -53,44 +54,116 @@
 	</pluginRepositories>
 
 	<build>
+		<finalName>${project.parent.artifactId}-${project.parent.version}</finalName>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/webapp</directory>
+				<filtering>true</filtering>
+				<excludes>
+					<exclude>resources</exclude>
+				</excludes>
+				<targetPath>web/module</targetPath>
+			</resource>
+			<resource>
+				<directory>src/main/webapp</directory>
+				<filtering>false</filtering>
+				<includes>
+					<include>resources</include>
+				</includes>
+				<targetPath>web/module</targetPath>
+			</resource>
+		</resources>
+
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+				<filtering>true</filtering>
+			</testResource>
+		</testResources>
 		<pluginManagement>
 			<plugins>
-				<!-- Spotless plugin -->
 				<plugin>
-					<groupId>com.diffplug.spotless</groupId>
-					<artifactId>spotless-maven-plugin</artifactId>
-					<version>2.27.2</version>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.10.1</version>
 					<configuration>
-						<java>
-							<licenseHeader>
-								<file>${project.basedir}/license-header.txt</file>
-							</licenseHeader>
-							<eclipse>
-								<file>${project.basedir}/OpenMRSFormatter.xml</file>
-							</eclipse>
-							<removeUnusedImports/>
-							<importOrder>
-								<order>javax,java</order>
-							</importOrder>
-						</java>
-						<formats>
-							<format>
-								<includes>
-									<include>**/*.xml</include>
-								</includes>
-								<licenseHeader>
-									<file>${project.basedir}/license-header.txt</file>
-									<delimiter>^(?!&lt;\?xml)</delimiter>
-								</licenseHeader>
-							</format>
-						</formats>
+						<target>1.8</target>
+						<source>1.8</source>
+						<encoding>UTF-8</encoding>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.openmrs.maven.plugins</groupId>
+					<artifactId>maven-openmrs-plugin</artifactId>
+					<version>1.0.1</version>
+					<extensions>true</extensions>
+					<executions>
+						<execution>
+							<id>init</id>
+							<phase>initialize</phase>
+							<goals>
+								<goal>initialize-module</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>pack</id>
+							<phase>package</phase>
+							<goals>
+								<goal>package-module</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>Expand moduleApplicationContext and messages</id>
+							<goals>
+								<goal>unpack-dependencies</goal>
+							</goals>
+							<phase>generate-resources</phase>
+							<configuration>
+								<includeGroupIds>${project.parent.groupId}</includeGroupIds>
+								<includeArtifactIds>${project.parent.artifactId}-api</includeArtifactIds>
+								<excludeTransitive>true</excludeTransitive>
+								<includes>**\/*.xml,**\/*.properties</includes>
+								<outputDirectory>${project.build.directory}/classes</outputDirectory>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5</version>
+					<configuration>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
+						<tagNameFormat>@{project.version}</tagNameFormat>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>2.3.2</version>
+					<configuration>
+						<archive>
+							<manifestEntries>
+								<Build-Timestamp>${TIMESTAMP}</Build-Timestamp>
+								<Specification-Version>${openmrs.version.shortnumericonly}</Specification-Version>
+								<Specification-Vendor>${openmrs.version.long}</Specification-Vendor>
+							</manifestEntries>
+						</archive>
 					</configuration>
 					<executions>
 						<execution>
-							<id>spotless-apply</id>
-							<phase>validate</phase>
 							<goals>
-								<goal>apply</goal>
+								<goal>test-jar</goal>
 							</goals>
 						</execution>
 					</executions>
