@@ -155,15 +155,219 @@
     "resultsViewerConcepts": [
       {
         "conceptUuid": "1eb05918-f50c-4cad-a827-3c78f296a10a",
-        "defaultOpen": true
+        "defaultOpen": false
       },
       {
         "conceptUuid": "dc824b7b-30ab-102d-86b0-7a5022ba4115",
-        "defaultOpen": true
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "dc9223b2-30ab-102d-86b0-7a5022ba4115",
+        "defaultOpen": false
       },
       {
         "conceptUuid": "dc926649-30ab-102d-86b0-7a5022ba4115",
-        "defaultOpen": true
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "dc9292fc-30ab-102d-86b0-7a5022ba4115",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "dc96505b-30ab-102d-86b0-7a5022ba4115",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "dc9686e0-30ab-102d-86b0-7a5022ba4115",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "1643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "dcbc4a1c-30ab-102d-86b0-7a5022ba4115",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "dcbc52c0-30ab-102d-86b0-7a5022ba4115",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "dcbcba2c-30ab-102d-86b0-7a5022ba4115",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "264e34a1-3ae3-4b59-9763-48c961a8a56a",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "14924d56-8841-4d96-a9bb-8daaeaacea17",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "8733234b-7391-45aa-8cb2-9fabfafbc3d1",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "159645AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "159981AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161152AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161199AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161422AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161424AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161425AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161426AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161428AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161429AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161430AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161431AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161432AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161434AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161436AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161437AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161446AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161451AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161458AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161461AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161463AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161464AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161468AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161473AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161474AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161475AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161476AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161477AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161478AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161479AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161480AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161483AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161486AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161487AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161488AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161491AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161492AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161493AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161495AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
+      },
+      {
+        "conceptUuid": "161496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "defaultOpen": false
       },
       {
         "conceptUuid": "a9a5af0f-cb4e-4657-8ec0-a21772a02345"
@@ -196,6 +400,116 @@
       "src": "/openmrs/spa/logo-white.svg",
       "alt": "UgandaEMR+ logo"
     },
+    "sections": [
+      "demographics",
+      "contact",
+      "custom",
+      "relationships",
+      "nextOfKin"
+    ],
+    "sectionDefinitions": [
+      {
+        "id": "custom",
+        "name": "Demographics",
+        "fields": [
+          "alternativePhone",
+          "maritalStatus",
+          "nationality",
+          "occupation",
+          "education",
+          "email"
+        ]
+      },
+      {
+        "id": "nextOfKin",
+        "name": "Next of Kin Details",
+        "fields": [
+          "nextOfKinName",
+          "nextOfkinPhone"
+        ]
+      }
+    ],
+    "fieldDefinitions": [
+      {
+        "id": "maritalStatus",
+        "type": "person attribute",
+        "uuid": "8d871f2a-c2cc-11de-8d13-0010c6dffd0f",
+        "answerConceptSetUuid" : "dce0c134-30ab-102d-86b0-7a5022ba4115",
+        "label": "Marital status",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "id": "nationality",
+        "type": "person attribute",
+        "uuid": "dec484be-1c43-416a-9ad0-18bd9ef28929",
+        "answerConceptSetUuid" : "8143023b-e9d9-4c9f-91b8-7c82b5524412",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "id": "occupation",
+        "type": "person attribute",
+        "uuid": "b0868a16-4f8e-43da-abfc-6338c9d8f56a",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "id": "education",
+        "type": "person attribute",
+        "uuid": "ec6e8300-38e8-4c95-8e57-27c9cdfba104",
+        "answerConceptSetUuid":"14af2c6d-a47d-4e94-9b16-5284134def96",
+        "label": "Education Level",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "id": "email",
+        "type": "person attribute",
+        "uuid": "5ecfd59d-5988-4aa3-84f8-8b43599fc67c",
+        "label": "Email address",
+        "validation": {
+          "matches": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+        }
+      },
+      {
+        "id": "phone",
+        "type": "person attribute",
+        "uuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
+        "label": "Phone Number",
+        "validation": {
+          "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+        }
+      },
+      {
+        "id": "alternativePhone",
+        "type": "person attribute",
+        "uuid": "8c44d411-285f-46c6-9f17-c2f919823b34",
+        "label": "Alternative Phone Number",
+        "validation": {
+          "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+        }
+      },
+      {
+        "id": "nextOfKinName",
+        "type": "person attribute",
+        "uuid": "e493f4ec-51f1-4a77-8d3c-5791f8cb02cd",
+        "label": "Name"
+      },
+      {
+        "id": "nextOfkinPhone",
+        "type": "person attribute",
+        "uuid": "553834ef-b3fe-4c79-826a-6d4b6978bcff",
+        "label": "Phone Number",
+        "validation": {
+          "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+        }
+      }
+    ],
     "links": {
       "submitButton": "/openmrs/spa/home/patient-queues"
     },
