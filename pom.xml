@@ -29,41 +29,6 @@
 		<module>omod</module>
 	</modules>
 
-	<repositories>
-		<repository>
-			<id>openmrs-repo</id>
-			<name>OpenMRS Nexus Repository</name>
-			<url>https://mavenrepo.openmrs.org/public</url>
-		</repository>
-		<repository>
-			<id>central</id>
-			<name>Maven Repository Switchboard</name>
-			<layout>default</layout>
-			<url>https://repo1.maven.org/maven2</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>openmrs-repo</id>
-			<name>OpenMRS Nexus Repository</name>
-			<url>https://mavenrepo.openmrs.org/public</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
-	<distributionManagement>
-		<repository>
-			<id>openmrs-repo-modules</id>
-			<name>OpenMRS Modules</name>
-			<url>https://openmrs.jfrog.io/artifactory/modules/</url>
-		</repository>
-		<snapshotRepository>
-			<id>openmrs-repo-snapshots</id>
-			<name>OpenMRS Snapshots</name>
-			<url>https://openmrs.jfrog.io/openmrs/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
 
 	<build>
 		<finalName>${project.parent.artifactId}-${project.parent.version}</finalName>
@@ -184,6 +149,43 @@
 		</pluginManagement>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>openmrs-repo-modules</id>
+			<name>OpenMRS Modules</name>
+			<url>https://openmrs.jfrog.io/artifactory/modules/</url>
+		</repository>
+		<snapshotRepository>
+			<id>openmrs-repo-snapshots</id>
+			<name>OpenMRS Snapshots</name>
+			<url>https://openmrs.jfrog.io/openmrs/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<repositories>
+		<repository>
+			<id>openmrs-repo</id>
+			<name>OpenMRS Nexus Repository</name>
+			<url>https://mavenrepo.openmrs.org/public</url>
+		</repository>
+		<repository>
+			<id>central</id>
+			<name>Maven Repository Switchboard</name>
+			<layout>default</layout>
+			<url>https://repo1.maven.org/maven2</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>openmrs-repo</id>
+			<name>OpenMRS Nexus Repository</name>
+			<url>https://mavenrepo.openmrs.org/public</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
 
 	<properties>
 		<openmrsPlatformVersion>2.6.3</openmrsPlatformVersion>

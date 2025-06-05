@@ -11,4 +11,8 @@
 	<packaging>jar</packaging>
 	<name>EPCare Core API</name>
 	<description>API project for EPCare Core</description>
+
+	<dependencies>
+
+	</dependencies>
 </project>
