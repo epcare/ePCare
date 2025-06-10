@@ -199,7 +199,7 @@
 		<attachmentsVersion>3.6.0</attachmentsVersion>
 		<bahmniappointmentVersion>1.6.0</bahmniappointmentVersion>
 		<bedmanagementVersion>6.0.0</bedmanagementVersion>
-		<billingVersion>1.3.0</billingVersion>
+		<billingVersion>1.3.2</billingVersion>
 		<calculationVersion>1.3.0</calculationVersion>
 		<cohortModuleVersion>3.4.0</cohortModuleVersion>
 		<coreappsVersion>1.39.0</coreappsVersion>
