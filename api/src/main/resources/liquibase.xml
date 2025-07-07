@@ -17,4 +17,18 @@
             UPDATE global_property  SET property_value = "pfrontend" WHERE property = "ugandaemr.metadata.github.branch.frontend";
         </sql>
     </changeSet>
+
+    <changeSet id="epcarecore-20250707-1013" author="slubwama">
+        <preConditions onFail="CONTINUE">
+            <sqlCheck expectedResult="1">
+                select count(*) from global_property where property="application.name";
+            </sqlCheck>
+        </preConditions>
+        <comment>
+            Change application name to ePCare theme name from any distribution name.
+        </comment>
+        <sql>
+            UPDATE global_property  SET property_value = "ePCare - end-to-end Patient Care System" WHERE property = "application.name";
+        </sql>
+    </changeSet>
 </databaseChangeLog>

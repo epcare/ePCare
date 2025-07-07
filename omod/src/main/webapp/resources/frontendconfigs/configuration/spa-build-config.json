@@ -22,6 +22,7 @@
     "@openmrs/esm-patient-orders-app": "next",
     "@openmrs/esm-patient-programs-app": "next",
     "@openmrs/esm-patient-search-app": "next",
+    "@openmrs/esm-patient-tests-app": "next",
     "@openmrs/esm-patient-vitals-app": "next",
     "@openmrs/esm-primary-navigation-app": "next",
     "@openmrs/esm-stock-management-app": "next",
