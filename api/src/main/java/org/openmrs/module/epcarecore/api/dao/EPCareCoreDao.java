@@ -9,13 +9,10 @@
  */
 package org.openmrs.module.epcarecore.api.dao;
 
-import org.openmrs.api.db.hibernate.DbSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 @Repository("epcarecore.EPCareCoreDao")
 public class EPCareCoreDao {
 	
-	@Autowired
-	DbSessionFactory sessionFactory;
 }
