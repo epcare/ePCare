@@ -38,7 +38,9 @@
     "@ugandaemr/esm-patient-registration-app": "next",
     "@ugandaemr/esm-procedure-orders-app": "next",
     "@ugandaemr/esm-ugandaemr-app": "next",
-    "@ugandaemr/esm-ugandaemr-exchange-app": "next"
+    "@ugandaemr/esm-ugandaemr-exchange-app": "next",
+    "@openmrs/esm-bed-management-app": "next",
+    "@openmrs/esm-ward-app": "next"
   },
   "importmap": "/openmrs/spa/importmap.json",
   "apiUrl": "/openmrs/",
