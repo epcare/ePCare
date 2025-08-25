@@ -375,7 +375,8 @@
     },
     "showCenteredLogin": true,
     "supportEmail": "info@epcare.org",
-    "footerOpenMRSLogo": "omrs-logo-white"
+    "footerOpenMRSLogo": "omrs-logo-white",
+    "showDefaultHome": true
   },
   "@openmrs/esm-primary-navigation-app": {
     "extensionSlots": {
@@ -604,7 +605,7 @@
     "logo": {
       "src": "/openmrs/spa/logo-white.svg",
       "alt": "UgandaEMR+ logo",
-      "link": "${openmrsSpaBase}/home/initial-page"
+      "link": "${openmrsSpaBase}/home"
     }
   },
   "@openmrs/esm-patient-banner-app": {
@@ -791,18 +792,18 @@
       }
     }
   },
-  "@ugandaemr/esm-billing-app": {
+  "@epcare/esm-billing-app": {
     "serviceTypes": "609afe4f-d539-4dfe-896d-0b9897d0ee4a",
     "defaultCurrency": "UGX",
     "showEditBillButton": true
   },
-  "@ugandaemr/esm-procedure-orders-app": {
+  "@epcare/esm-procedure-orders-app": {
     "procedureConceptSetUuid": "83bdfa6a-0c51-428a-a08d-3922db216858",
     "procedureResultEncounterType": "a4870f6d-ea06-4bbe-b775-bcbfb0816dbf",
     "procedureComplicationGroupingConceptUuid": "941d42f3-1901-47d7-826f-403736388a62",
     "procedureComplicationConceptUuid": "941d42f3-1901-47d7-826f-403736388a62"
   },
-  "@ugandaemr/esm-imaging-orders-app": {
+  "@epcare/esm-imaging-orders-app": {
     "radiologyConceptSetUuid": "4557f916-4f42-410a-96ad-39c59ad82553"
   },
   "@ugandaemr/esm-patient-queues-app": {
