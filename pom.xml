@@ -193,8 +193,8 @@
 
 		<addresshierarchyVersion>2.21.0</addresshierarchyVersion>
 		<attachmentsVersion>3.7.0</attachmentsVersion>
-		<bahmniappointmentVersion>2.0.2</bahmniappointmentVersion>
-		<bedmanagementVersion>6.0.0</bedmanagementVersion>
+		<bahmniappointmentVersion>2.1.0-SNAPSHOT</bahmniappointmentVersion>
+		<bedmanagementVersion>6.1.0</bedmanagementVersion>
 		<billingVersion>1.3.2</billingVersion>
 		<calculationVersion>1.3.0</calculationVersion>
 		<cohortModuleVersion>3.7.3</cohortModuleVersion>
@@ -212,7 +212,7 @@
 		<legacyuiVersion>1.23.0</legacyuiVersion>
 		<metadatadeployVersion>1.13.0</metadatadeployVersion>
 		<metadatamappingVersion>1.6.0</metadatamappingVersion>
-		<metadatasharingVersion>1.9.0</metadatasharingVersion>
+		<metadatasharingVersion>1.10.0</metadatasharingVersion>
 		<o3formsVersion>2.3.0</o3formsVersion>
 		<openconceptlabModuleVersion>2.4.0</openconceptlabModuleVersion>
 		<openmrsAtomfeedVersion>2.6.1</openmrsAtomfeedVersion>
@@ -233,5 +233,6 @@
 		<ugandaemrSyncVersion>2.0.0-SNAPSHOT</ugandaemrSyncVersion>
 		<ugandaemrVersion>4.1.2-SNAPSHOT</ugandaemrVersion>
 		<webservices.restModuleVersion>2.49.0</webservices.restModuleVersion>
+		<initializerVersion>2.9.0</initializerVersion>
 	</properties>
 </project>

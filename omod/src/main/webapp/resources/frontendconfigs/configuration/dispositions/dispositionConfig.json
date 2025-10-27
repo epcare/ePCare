@@ -1,0 +1,38 @@
+[
+  {
+    "encounterTypes": null,
+    "keepsVisitOpen": null,
+    "additionalObs": [],
+    "careSettingTypes": null,
+    "name": "disposition.admit",
+    "conceptCode": "CIEL:199457",
+    "type": "ADMIT",
+    "actions": [],
+    "excludedEncounterTypes": null,
+    "uuid": "66de7f60-b73a-11e2-9e96-0800200c9a66"
+  },
+  {
+    "encounterTypes": null,
+    "keepsVisitOpen": null,
+    "additionalObs": [],
+    "careSettingTypes": null,
+    "name": "disposition.transfer",
+    "conceptCode": "CIEL:199461",
+    "type": "TRANSFER",
+    "actions": [],
+    "excludedEncounterTypes": null,
+    "uuid": "8297651b-4046-11ef-ba6a-0242ac120002"
+  },
+  {
+    "encounterTypes": null,
+    "keepsVisitOpen": null,
+    "additionalObs": [],
+    "careSettingTypes": null,
+    "name": "disposition.discharge",
+    "conceptCode": "CIEL:199462",
+    "type": "DISCHARGE",
+    "actions": [],
+    "excludedEncounterTypes": null,
+    "uuid": "12129630-b698-11e2-9e96-0800200c9a66"
+  }
+]
