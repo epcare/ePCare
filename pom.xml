@@ -208,7 +208,7 @@
 		<htmlwidgetsVersion>1.11.0</htmlwidgetsVersion>
 		<idgenVersion>4.14.0</idgenVersion>
 		<junitParamsVersion>1.0.4</junitParamsVersion>
-		<labmanagementVersion>1.0.0</labmanagementVersion>
+		<labmanagementVersion>1.0.1-SNAPSHOT</labmanagementVersion>
 		<legacyuiVersion>1.23.0</legacyuiVersion>
 		<metadatadeployVersion>1.13.0</metadatadeployVersion>
 		<metadatamappingVersion>1.6.0</metadatamappingVersion>
@@ -233,5 +233,6 @@
 		<ugandaemrSyncVersion>2.0.0-SNAPSHOT</ugandaemrSyncVersion>
 		<ugandaemrVersion>4.1.2-SNAPSHOT</ugandaemrVersion>
 		<webservices.restModuleVersion>2.49.0</webservices.restModuleVersion>
+		<ugandaemr-content.version>1.0.0-SNAPSHOT</ugandaemr-content.version>
 	</properties>
 </project>
