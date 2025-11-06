@@ -218,7 +218,7 @@
 		<idgenVersion>4.10.0</idgenVersion>
 		<jacksonVersion>1.8.3</jacksonVersion>
 		<junitParamsVersion>1.0.4</junitParamsVersion>
-		<labmanagementVersion>1.0.0</labmanagementVersion>
+		<labmanagementVersion>1.0.1-SNAPSHOT</labmanagementVersion>
 		<legacyuiVersion>1.16.0</legacyuiVersion>
 		<metadatadeployVersion>1.13.0</metadatadeployVersion>
 		<metadatamappingVersion>1.6.0</metadatamappingVersion>
@@ -254,5 +254,6 @@
 		<ugandaemrfingerprintVersion>1.1.0</ugandaemrfingerprintVersion>
 		<webservices.restModuleVersion>2.47.0</webservices.restModuleVersion>
 		<xformsVersion>4.3.12</xformsVersion>
+		<ugandaemr-content.version>1.0.0-SNAPSHOT</ugandaemr-content.version>
 	</properties>
 </project>
