@@ -234,5 +234,6 @@
 		<ugandaemrVersion>4.1.2-SNAPSHOT</ugandaemrVersion>
 		<webservices.restModuleVersion>2.49.0</webservices.restModuleVersion>
 		<ugandaemr-content.version>1.0.0-SNAPSHOT</ugandaemr-content.version>
+		<epcare-content.version>1.0.1-SNAPSHOT</epcare-content.version>
 	</properties>
 </project>
