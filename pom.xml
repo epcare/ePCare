@@ -207,6 +207,7 @@
 		<formfilterVersion>1.3.0</formfilterVersion>
 		<htmlwidgetsVersion>1.11.0</htmlwidgetsVersion>
 		<idgenVersion>4.14.0</idgenVersion>
+		<initializerVersion>2.9.0</initializerVersion>
 		<junitParamsVersion>1.0.4</junitParamsVersion>
 		<labmanagementVersion>1.0.1-SNAPSHOT</labmanagementVersion>
 		<legacyuiVersion>1.23.0</legacyuiVersion>
