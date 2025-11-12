@@ -207,8 +207,9 @@
 		<formfilterVersion>1.3.0</formfilterVersion>
 		<htmlwidgetsVersion>1.11.0</htmlwidgetsVersion>
 		<idgenVersion>4.14.0</idgenVersion>
+		<initializerVersion>2.9.0</initializerVersion>
 		<junitParamsVersion>1.0.4</junitParamsVersion>
-		<labmanagementVersion>1.0.0</labmanagementVersion>
+		<labmanagementVersion>1.0.2</labmanagementVersion>
 		<legacyuiVersion>1.23.0</legacyuiVersion>
 		<metadatadeployVersion>1.13.0</metadatadeployVersion>
 		<metadatamappingVersion>1.6.0</metadatamappingVersion>
@@ -230,8 +231,10 @@
 		<stockmanagementVersion>2.0.3</stockmanagementVersion>
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
 		<ugandaemrReportsVersion>2.1.5-SNAPSHOT</ugandaemrReportsVersion>
-		<ugandaemrSyncVersion>2.0.0-SNAPSHOT</ugandaemrSyncVersion>
+		<ugandaemrSyncVersion>2.0.1</ugandaemrSyncVersion>
 		<ugandaemrVersion>4.1.2-SNAPSHOT</ugandaemrVersion>
 		<webservices.restModuleVersion>2.49.0</webservices.restModuleVersion>
+		<ugandaemr-content.version>1.0.0-SNAPSHOT</ugandaemr-content.version>
+		<epcare-content.version>1.0.1-SNAPSHOT</epcare-content.version>
 	</properties>
 </project>
