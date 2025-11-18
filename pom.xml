@@ -225,13 +225,13 @@
 		<referencemetadataVersion>2.12.0</referencemetadataVersion>
 		<reportingCompatibilityVersion>2.0.9</reportingCompatibilityVersion>
 		<reportingRestVersion>1.15.0</reportingRestVersion>
-		<reportingVersion>1.28.0</reportingVersion>
+		<reportingVersion>1.27.0</reportingVersion>
 		<serializationxstreamVersion>0.2.16</serializationxstreamVersion>
 		<spaModuleVersion>2.0.0</spaModuleVersion>
 		<stockmanagementVersion>2.0.3</stockmanagementVersion>
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
 		<ugandaemrReportsVersion>2.1.5-SNAPSHOT</ugandaemrReportsVersion>
-		<ugandaemrSyncVersion>2.0.1</ugandaemrSyncVersion>
+		<ugandaemrSyncVersion>2.0.2</ugandaemrSyncVersion>
 		<ugandaemrVersion>4.1.2-SNAPSHOT</ugandaemrVersion>
 		<webservices.restModuleVersion>2.49.0</webservices.restModuleVersion>
 		<ugandaemr-content.version>1.0.0-SNAPSHOT</ugandaemr-content.version>
