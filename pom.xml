@@ -234,7 +234,7 @@
 		<ugandaemrSyncVersion>2.0.4</ugandaemrSyncVersion>
 		<ugandaemrVersion>4.1.2</ugandaemrVersion>
 		<webservices.restModuleVersion>2.49.0</webservices.restModuleVersion>
-		<ugandaemr-content.version>1.0.0</ugandaemr-content.version>
+		<ugandaemr-content.version>1.0.1</ugandaemr-content.version>
 		<epcare-content.version>1.0.1</epcare-content.version>
 	</properties>
 </project>
