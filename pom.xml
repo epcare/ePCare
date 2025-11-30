@@ -18,9 +18,9 @@
 	<url>https://wiki.openmrs.org/x/FQ4z</url>
 
 	<scm>
-		<connection>scm:git:git@github.com:openmrs/openmrs-module-epcarecore.git</connection>
-		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-epcarecore.git</developerConnection>
-		<url>https://github.com/openmrs/openmrs-module-epcarecore/</url>
+		<connection>scm:git:git@github.com:epcare/ePCare.git</connection>
+		<developerConnection>scm:git:git@github.com:epcare/ePCare.git</developerConnection>
+		<url>https://github.com/epcare/ePCare.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
