@@ -25,7 +25,6 @@ cp -r "${CWD}/assets/" "${CWD}/frontend"
 cp "${CWD}/configuration/frontend-config.json" "${CWD}/frontend"
 mv "${CWD}/frontend/frontend-config.json" "${CWD}/frontend/config.json"
 cp -r assets/* frontend/.
-zip -r frontend.zip frontend/*
 
 # Exit with success status
 exit 0

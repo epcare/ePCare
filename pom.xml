@@ -209,7 +209,7 @@
 		<idgenVersion>4.14.0</idgenVersion>
 		<initializerVersion>2.9.0</initializerVersion>
 		<junitParamsVersion>1.0.4</junitParamsVersion>
-		<labmanagementVersion>1.0.2</labmanagementVersion>
+		<labmanagementVersion>1.0.3</labmanagementVersion>
 		<legacyuiVersion>1.23.0</legacyuiVersion>
 		<metadatadeployVersion>1.13.0</metadatadeployVersion>
 		<metadatamappingVersion>1.6.0</metadatamappingVersion>
