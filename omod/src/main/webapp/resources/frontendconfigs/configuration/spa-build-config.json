@@ -43,7 +43,9 @@
     "@epcare/esm-imaging-orders-app": "next",
     "@epcare/esm-procedure-orders-app": "next",
     "@openmrs/esm-bed-management-app": "next",
-    "@openmrs/esm-ward-app": "next"
+    "@openmrs/esm-ward-app": "next",
+    "@epcare/esm-medical-supply-dispensing-app": "next",
+    "@epcare/esm-medical-supply-orders-app": "next"
   },
   "importmap": "/openmrs/spa/importmap.json",
   "apiUrl": "/openmrs/",
