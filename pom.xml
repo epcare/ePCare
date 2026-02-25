@@ -9,7 +9,7 @@
 
 	<groupId>org.openmrs.module</groupId>
 	<artifactId>epcarecore</artifactId>
-	<version>2.0.0</version>
+	<version>2.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>EPCare Core</name>
 	<description>The distribution module for ePcare Hospital management system. </description>
@@ -20,7 +20,7 @@
 		<connection>scm:git:git@github.com:epcare/ePCare.git</connection>
 		<developerConnection>scm:git:git@github.com:epcare/ePCare.git</developerConnection>
 		<url>https://github.com/epcare/ePCare.git</url>
-		<tag>2.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<modules>
