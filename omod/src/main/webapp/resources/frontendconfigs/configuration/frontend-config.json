@@ -925,13 +925,6 @@
   "@openmrs/esm-patient-banner-app": {
     "extensionSlots": {
       "patient-actions-slot": {
-        "remove": [
-          "stop-visit-button",
-          "mark-patient-deceased-button",
-          "start-visit-button",
-          "cancel-visit-button",
-          "delete-visit-button"
-        ],
         "configure": {
           "start-visit-button": {
             "Display conditions": {
@@ -1040,13 +1033,6 @@
   "@openmrs/esm-patient-search-app": {
     "extensionSlots": {
       "patient-actions-slot": {
-        "remove": [
-          "start-visit-button",
-          "stop-visit-button",
-          "cancel-visit-button",
-          "mark-patient-deceased-button",
-          "delete-visit-button"
-        ],
         "configure": {
           "start-visit-button": {
             "Display conditions": {
