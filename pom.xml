@@ -229,10 +229,10 @@
 		<stockmanagementVersion>2.0.3</stockmanagementVersion>
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
 		<ugandaemrReportsVersion>2.1.6</ugandaemrReportsVersion>
-		<ugandaemrSyncVersion>2.0.10</ugandaemrSyncVersion>
-		<ugandaemrVersion>5.0.8</ugandaemrVersion>
+		<ugandaemrSyncVersion>3.0.0</ugandaemrSyncVersion>
+		<ugandaemrVersion>5.0.9</ugandaemrVersion>
 		<webservices.restModuleVersion>2.49.0</webservices.restModuleVersion>
-		<ugandaemr-content.version>1.0.6</ugandaemr-content.version>
+		<ugandaemr-content.version>1.0.7</ugandaemr-content.version>
 		<epcare-content.version>1.0.1</epcare-content.version>
 	</properties>
 </project>
