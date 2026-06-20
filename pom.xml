@@ -188,23 +188,23 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<openMRSVersion>2.7.4</openMRSVersion>
+		<openMRSVersion>2.7.8</openMRSVersion>
 
 		<addresshierarchyVersion>2.21.0</addresshierarchyVersion>
 		<attachmentsVersion>3.7.0</attachmentsVersion>
 		<bahmniappointmentVersion>2.0.2</bahmniappointmentVersion>
 		<bedmanagementVersion>6.1.0</bedmanagementVersion>
-		<billingVersion>1.3.2</billingVersion>
+		<billingVersion>2.3.0</billingVersion>
 		<calculationVersion>1.3.0</calculationVersion>
 		<cohortModuleVersion>3.7.3</cohortModuleVersion>
 		<dataEntryStatisticsVersion>1.8.0</dataEntryStatisticsVersion>
 		<emrapiVersion>2.3.0</emrapiVersion>
-		<eventVersion>2.10.0</eventVersion>
+		<eventVersion>4.0.0</eventVersion>
 		<fhir2Version>2.8.0</fhir2Version>
 		<formfilterVersion>1.3.0</formfilterVersion>
 		<htmlwidgetsVersion>1.11.0</htmlwidgetsVersion>
 		<idgenVersion>4.14.0</idgenVersion>
-		<initializerVersion>2.9.0</initializerVersion>
+		<initializerVersion>2.11.0</initializerVersion>
 		<junitParamsVersion>1.0.4</junitParamsVersion>
 		<labmanagementVersion>1.0.5</labmanagementVersion>
 		<legacyuiVersion>1.23.0</legacyuiVersion>
@@ -215,8 +215,8 @@
 		<openconceptlabModuleVersion>2.4.0</openconceptlabModuleVersion>
 		<openmrsAtomfeedVersion>2.6.1</openmrsAtomfeedVersion>
 		<openmrsTestutilsVersion>1.3</openmrsTestutilsVersion>
-		<orderexpansionVersion>1.0.0</orderexpansionVersion>
-		<orderTemplatesVersion>1.0.3</orderTemplatesVersion>
+		<orderexpansionVersion>1.0.1</orderexpansionVersion>
+		<orderTemplatesVersion>2.2.0</orderTemplatesVersion>
 		<patientFlagsVersion>3.0.8</patientFlagsVersion>
 		<patientqueueingVersion>2.0.1</patientqueueingVersion>
 		<referencemetadataVersion>2.12.0</referencemetadataVersion>
@@ -230,7 +230,7 @@
 		<ugandaemrReportsVersion>2.1.6</ugandaemrReportsVersion>
 		<ugandaemrSyncVersion>3.0.1</ugandaemrSyncVersion>
 		<ugandaemrVersion>5.0.9</ugandaemrVersion>
-		<webservices.restModuleVersion>2.49.0</webservices.restModuleVersion>
+		<webservices.restModuleVersion>2.51.0</webservices.restModuleVersion>
 		<epcare-content.version>1.0.2-SNAPSHOT</epcare-content.version>
 	</properties>
 </project>
