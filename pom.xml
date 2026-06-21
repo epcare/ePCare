@@ -229,7 +229,7 @@
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
 		<ugandaemrReportsVersion>2.1.6</ugandaemrReportsVersion>
 		<ugandaemrSyncVersion>3.0.1</ugandaemrSyncVersion>
-		<ugandaemrVersion>5.0.10</ugandaemrVersion>
+		<ugandaemrVersion>5.0.13</ugandaemrVersion>
 		<webservices.restModuleVersion>2.51.0</webservices.restModuleVersion>
 		<epcare-content.version>1.0.2</epcare-content.version>
 	</properties>
