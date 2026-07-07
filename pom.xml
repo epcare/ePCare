@@ -188,49 +188,45 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<openMRSVersion>2.7.8</openMRSVersion>
+		<openMRSVersion>2.8.7</openMRSVersion>
 
 		<addresshierarchyVersion>2.21.0</addresshierarchyVersion>
-		<attachmentsVersion>3.7.0</attachmentsVersion>
-		<bahmniappointmentVersion>2.0.2</bahmniappointmentVersion>
-		<bedmanagementVersion>6.1.0</bedmanagementVersion>
+		<attachmentsVersion>4.0.0</attachmentsVersion>
+		<bahmniappointmentVersion>2.1.0</bahmniappointmentVersion>
+		<bedmanagementVersion>7.2.0</bedmanagementVersion>
 		<billingVersion>2.3.0</billingVersion>
-		<calculationVersion>1.3.0</calculationVersion>
+		<calculationVersion>2.0.0</calculationVersion>
 		<cohortModuleVersion>3.7.3</cohortModuleVersion>
 		<dataEntryStatisticsVersion>1.8.0</dataEntryStatisticsVersion>
-		<emrapiVersion>2.3.0</emrapiVersion>
+		<emrapiVersion>3.4.0</emrapiVersion>
 		<eventVersion>4.0.0</eventVersion>
-		<fhir2Version>2.8.0</fhir2Version>
-		<formfilterVersion>1.3.0</formfilterVersion>
-		<htmlwidgetsVersion>1.11.0</htmlwidgetsVersion>
-		<idgenVersion>4.14.0</idgenVersion>
-		<initializerVersion>2.11.0</initializerVersion>
+		<fhir2Version>4.1.0</fhir2Version>
+		<htmlwidgetsVersion>2.0.1</htmlwidgetsVersion>
+		<idgenVersion>5.0.4</idgenVersion>
+		<initializerVersion>2.12.0</initializerVersion>
 		<junitParamsVersion>1.0.4</junitParamsVersion>
-		<labmanagementVersion>1.0.5</labmanagementVersion>
-		<legacyuiVersion>1.23.0</legacyuiVersion>
-		<metadatadeployVersion>1.13.0</metadatadeployVersion>
-		<metadatamappingVersion>1.6.0</metadatamappingVersion>
-		<metadatasharingVersion>1.10.0</metadatasharingVersion>
+		<labmanagementVersion>1.1.0</labmanagementVersion>
+		<legacyuiVersion>2.1.0</legacyuiVersion>
+		<metadatamappingVersion>2.0.0</metadatamappingVersion>
 		<o3formsVersion>2.3.0</o3formsVersion>
-		<openconceptlabModuleVersion>2.4.0</openconceptlabModuleVersion>
-		<openmrsAtomfeedVersion>2.6.1</openmrsAtomfeedVersion>
-		<openmrsTestutilsVersion>1.3</openmrsTestutilsVersion>
-		<orderexpansionVersion>5.0.0</orderexpansionVersion>
+		<openconceptlabModuleVersion>3.1.0</openconceptlabModuleVersion>
+		<orderexpansionVersion>5.1.0</orderexpansionVersion>
 		<orderTemplatesVersion>2.2.0</orderTemplatesVersion>
-		<patientFlagsVersion>3.0.8</patientFlagsVersion>
+		<patientFlagsVersion>3.0.10</patientFlagsVersion>
 		<patientqueueingVersion>2.0.1</patientqueueingVersion>
-		<referencemetadataVersion>2.12.0</referencemetadataVersion>
-		<reportingCompatibilityVersion>2.0.9</reportingCompatibilityVersion>
-		<reportingRestVersion>1.15.0</reportingRestVersion>
-		<reportingVersion>1.27.0</reportingVersion>
-		<serializationxstreamVersion>0.2.16</serializationxstreamVersion>
+		<reportingCompatibilityVersion>2.10.0</reportingCompatibilityVersion>
+		<reportingRestVersion>2.0.0</reportingRestVersion>
+		<reportingVersion>2.1.0</reportingVersion>
+		<serializationxstreamVersion>0.3.0</serializationxstreamVersion>
 		<spaModuleVersion>2.0.0</spaModuleVersion>
-		<stockmanagementVersion>2.0.3</stockmanagementVersion>
+		<stockmanagementVersion>3.0.0</stockmanagementVersion>
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
 		<ugandaemrReportsVersion>2.1.6</ugandaemrReportsVersion>
-		<ugandaemrSyncVersion>3.0.1</ugandaemrSyncVersion>
-		<ugandaemrVersion>5.0.14</ugandaemrVersion>
-		<webservices.restModuleVersion>2.51.0</webservices.restModuleVersion>
-		<epcare-content.version>1.0.3</epcare-content.version>
+		<ugandaemrSyncVersion>3.0.3</ugandaemrSyncVersion>
+		<ugandaemrVersion>5.0.15</ugandaemrVersion>
+		<webservices.restModuleVersion>3.5.0</webservices.restModuleVersion>
+		<patientdocumentsVersion>1.1.0</patientdocumentsVersion>
+		<tasksVersion>2.1.0</tasksVersion>
+		<epcare-content.version>1.0.6</epcare-content.version>
 	</properties>
 </project>
