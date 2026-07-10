@@ -1007,14 +1007,126 @@
     }
   },
   "@openmrs/esm-patient-vitals-app": {
-    "vitals": {
-      "useMuacColors": true,
-      "showPrintButton": true,
-      "useFormEngine": false
-    },
     "concepts": {
-      "vitalSignsConceptSetUuid": "dc98127e-30ab-102d-86b0-7a5022ba4115"
+      "systolicBloodPressureUuid": "5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "diastolicBloodPressureUuid": "5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "pulseUuid": "5087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "temperatureUuid": "5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "oxygenSaturationUuid": "5092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "heightUuid": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "weightUuid": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "respiratoryRateUuid": "5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "generalPatientNoteUuid": "165095AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "midUpperArmCircumferenceUuid": "1343AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "bodyMassIndexUuid": "dca1f717-30ab-102d-86b0-7a5022ba4115"
+    },
+    "vitalSignsConceptSetUuid": "dc98127e-30ab-102d-86b0-7a5022ba4115",
+    "vitals": {
+      "useFormEngine": false,
+      "encounterTypeUuid": "67a71486-1a54-468f-ac3e-7091a9a79584",
+      "vitalsOverdueThresholdHours": 12,
+      "showPrintButton": true,
+      "formUuid": "9f26aad4-244a-46ca-be49-1196df1a8c9a",
+      "formName": "Vitals",
+      "useMuacColors": true
+    },
+    "biometrics": {
+      "bmiUnit": "kg / m²",
+      "bmiMinimumAge": 0
     }
+  },
+  "@openmrs/esm-ward-app": {
+    "extensionSlots": {
+      "action-menu-ward-patient-items-slot": {
+        "add": [
+          "order-basket-action-menu"
+        ]
+      }
+    },
+    "patientCardElements": {
+      "obs": [
+        {
+          "id": "weight",
+          "conceptUuid": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "label": "Weight",
+          "orderBy": "descending",
+          "limit": 1,
+          "onlyWithinCurrentVisit": false
+        },
+        {
+          "id": "height",
+          "conceptUuid": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "label": "Height",
+          "orderBy": "descending",
+          "limit": 1,
+          "onlyWithinCurrentVisit": false
+        },
+        {
+          "id": "bmi",
+          "conceptUuid": "c4b46149-c2c0-4b05-8384-f21eeb5a1b2c",
+          "label": "BMI",
+          "orderBy": "descending",
+          "limit": 1,
+          "onlyWithinCurrentVisit": false
+        }
+      ],
+      "pendingItems": [
+        {
+          "id": "pending-items",
+          "orders": {
+            "orderTypes": [
+              {
+                "uuid": "52a447d3-a64a-11e3-9aeb-50e549534c5e",
+                "label": "Labs"
+              },
+              {
+                "uuid": "b4a7c280-369e-4d12-9ce8-18e36783fed6",
+                "label": "Procedure/Radiology"
+              },
+              {
+                "uuid": "131168f4-15f5-102d-96e4-000c29c2a5d7",
+                "label": "Medication"
+              },
+              {
+                "uuid": "dab3ab30-2feb-48ec-b4af-8332a0831b49",
+                "label": "Supplies"
+              }
+            ]
+          },
+          "showPendingItems": true
+        }
+      ],
+      "patientIdentifier": [
+        {
+          "id": "patient-identifier",
+          "showIdentifierLabel": true
+        }
+      ],
+      "patientAddress": [
+        {
+          "id": "patient-address",
+          "fields": [
+            "cityVillage",
+            "country"
+          ]
+        }
+      ],
+      "admissionRequestNote": [
+        {
+          "id": "admission-request-note",
+          "conceptUuid": "161011AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+      ],
+      "coloredObsTags": []
+    },
+    "wards": [
+      {
+        "id": "default-ward",
+        "appliedTo": []
+      }
+    ],
+    "hideWorkspaceVitalsLinks": false,
+    "additionalInpatientNotesConceptUuids": []
   },
   "@openmrs/esm-patient-orders-app": {
     "orderEncounterType": "dbe038cd-cad5-439d-a761-a6d6d680219c"
@@ -1214,5 +1326,13 @@
     "stockSourceTypeUUID": "2e1e8049-9cbe-4a2d-b1e5-8a91e5d7d97d",
     "stockAdjustmentReasonUUID": "3bbfaa44-d5b8-404d-b4c1-2bf49ad8ce25",
     "stockTakeReasonUUID": "3bbfaa44-d5b8-404d-b4c1-2bf49ad8ce25"
+  },
+  "@openmrs/esm-app-shell": {
+    "Enabled feature flags": [
+      "rde"
+    ]
+  },
+  "@openmrs/esm-bed-management-app": {
+    "admissionLocationTagName": "Admission Location"
   }
 }

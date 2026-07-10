@@ -227,6 +227,6 @@
 		<webservices.restModuleVersion>3.5.0</webservices.restModuleVersion>
 		<patientdocumentsVersion>1.1.0</patientdocumentsVersion>
 		<tasksVersion>2.1.0</tasksVersion>
-		<epcare-content.version>1.0.6</epcare-content.version>
+		<epcare-content.version>1.0.7</epcare-content.version>
 	</properties>
 </project>
