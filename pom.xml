@@ -222,11 +222,11 @@
 		<stockmanagementVersion>3.0.0</stockmanagementVersion>
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
 		<ugandaemrReportsVersion>2.1.6</ugandaemrReportsVersion>
-		<ugandaemrSyncVersion>3.0.3</ugandaemrSyncVersion>
-		<ugandaemrVersion>5.0.15</ugandaemrVersion>
+		<ugandaemrSyncVersion>3.0.4</ugandaemrSyncVersion>
+		<ugandaemrVersion>5.0.16</ugandaemrVersion>
 		<webservices.restModuleVersion>3.5.0</webservices.restModuleVersion>
 		<patientdocumentsVersion>1.1.0</patientdocumentsVersion>
 		<tasksVersion>2.1.0</tasksVersion>
-		<epcare-content.version>1.0.7</epcare-content.version>
+		<epcare-content.version>1.0.8</epcare-content.version>
 	</properties>
 </project>

@@ -31,4 +31,20 @@
             UPDATE global_property  SET property_value = "ePCare - end-to-end Patient Care System" WHERE property = "application.name";
         </sql>
     </changeSet>
+
+    <changeSet id="epcarecore-20250710-1201" author="slubwama">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                SELECT COUNT(*) FROM scheduler_task_config
+                WHERE schedulable_class = 'org.openmrs.module.databasebackup.DatabaseBackupTask'
+            </sqlCheck>
+        </preConditions>
+        <comment>
+            Remove databasebackup module scheduler task (module no longer installed)
+        </comment>
+        <sql>
+            DELETE FROM scheduler_task_config
+            WHERE schedulable_class = 'org.openmrs.module.databasebackup.DatabaseBackupTask';
+        </sql>
+    </changeSet>
 </databaseChangeLog>
