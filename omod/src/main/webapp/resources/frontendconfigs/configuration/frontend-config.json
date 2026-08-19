@@ -1229,9 +1229,10 @@
       }
     }
   },
-  "@epcare/esm-billing-app": {
+  "@openmrs/esm-billing-app": {
     "serviceTypes": "609afe4f-d539-4dfe-896d-0b9897d0ee4a",
     "defaultCurrency": "UGX",
+    "country": "Uganda",
     "showEditBillButton": true
   },
   "@epcare/esm-procedure-orders-app": {
