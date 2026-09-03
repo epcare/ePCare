@@ -1337,5 +1337,13 @@
   },
   "@openmrs/esm-bed-management-app": {
     "admissionLocationTagName": "Admission Location"
+  },
+  "@epcare/esm-report-builder": {
+    "etlTasks": {
+      "tasks": [
+        "Setup Mamba ETL",
+        "Run Analytics ETL"
+      ]
+    }
   }
 }

@@ -221,12 +221,13 @@
 		<spaModuleVersion>2.0.0</spaModuleVersion>
 		<stockmanagementVersion>3.0.0</stockmanagementVersion>
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
-		<ugandaemrReportsVersion>2.1.6</ugandaemrReportsVersion>
+		<ugandareportsetlVersion>1.0.0-SNAPSHOT</ugandareportsetlVersion>
+		<reportbuilderVersion>1.0.0-SNAPSHOT</reportbuilderVersion>
 		<ugandaemrSyncVersion>3.0.4</ugandaemrSyncVersion>
-		<ugandaemrVersion>5.0.16</ugandaemrVersion>
+		<ugandaemrVersion>5.1.0</ugandaemrVersion>
 		<webservices.restModuleVersion>3.5.0</webservices.restModuleVersion>
 		<patientdocumentsVersion>1.1.0</patientdocumentsVersion>
 		<tasksVersion>2.1.0</tasksVersion>
-		<epcare-content.version>1.0.8</epcare-content.version>
+		<epcare-content.version>1.0.9-SNAPSHOT</epcare-content.version>
 	</properties>
 </project>
