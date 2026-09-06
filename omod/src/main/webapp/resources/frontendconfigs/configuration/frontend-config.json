@@ -1343,6 +1343,12 @@
       "tasks": [
         "Setup Mamba ETL",
         "Run Analytics ETL"
+      ],
+      "taskMonitors": {},
+      "progressMonitor": "etl-progress-details",
+      "progressMonitors": [
+        "etl-progress-details",
+        "etl-module-health"
       ]
     }
   }
