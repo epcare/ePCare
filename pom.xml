@@ -222,7 +222,7 @@
 		<stockmanagementVersion>3.0.0</stockmanagementVersion>
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
 		<ugandareportsetlVersion>1.0.0-SNAPSHOT</ugandareportsetlVersion>
-		<reportbuilderVersion>1.0.0-SNAPSHOT</reportbuilderVersion>
+		<reportbuilderVersion>1.0.0</reportbuilderVersion>
 		<ugandaemrSyncVersion>3.0.4</ugandaemrSyncVersion>
 		<ugandaemrVersion>5.1.0</ugandaemrVersion>
 		<webservices.restModuleVersion>3.5.0</webservices.restModuleVersion>
