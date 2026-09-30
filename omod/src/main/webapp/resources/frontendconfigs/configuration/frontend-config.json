@@ -31,13 +31,6 @@
     "laboratoryReferralViewImplementation": "simple",
     "artCardEncounterTypeUuid": "8d5b2be0-c2cc-11de-8d13-0010c6dffd0f"
   },
-  "@ugandaemr/esm-data-visualizer-app": {
-    "Display conditions": {
-      "privileges": [
-        "Manage Data Visualizer"
-      ]
-    }
-  },
   "@openmrs/esm-appointments-app": {
     "Display conditions": {
       "privileges": [
@@ -270,21 +263,14 @@
     }
   },
   "@openmrs/esm-styleguide": {
-    "Brand color #1": "#1a3054",
-    "Brand color #2": "#1a3054",
-    "Brand color #3": "#0078a6"
+    "Brand color #1": " #1a3054",
+    "Brand color #2": " #1a3054",
+    "Brand color #3": " #0078a6"
   },
   "@openmrs/esm-patient-biometrics-app": {
     "Display conditions": {
       "privileges": [
         "Add Vitals and Biometrics"
-      ]
-    }
-  },
-  "@ugandaemr/esm-care-panel-app": {
-    "Display conditions": {
-      "privileges": [
-        "Manage Care Panel"
       ]
     }
   },
@@ -617,19 +603,19 @@
   "@ugandaemr/esm-login-app": {
     "logo": {
       "src": "/openmrs/spa/logo.svg",
-      "alt": "UgandaEMR+ logo"
+      "alt": "ePCare+ logo"
     },
     "loginBackground": {
       "src": "/openmrs/spa/background.png",
-      "alt": "UgandaEMR+ logo"
+      "alt": "ePCare+ logo"
     },
     "loginBanner": {
       "src": "/openmrs/spa/banner.svg",
-      "alt": "UgandaEMR+ logo"
+      "alt": "ePCare+ logo"
     },
-    "showCenteredLogin": true,
     "supportEmail": "info@epcare.org",
     "footerOpenMRSLogo": "omrs-logo-white",
+    "showCenteredLogin": true,
     "showDefaultHome": true
   },
   "@openmrs/esm-primary-navigation-app": {
@@ -1229,7 +1215,7 @@
       }
     }
   },
-  "@epcare/esm-billing-app": {
+  "@openmrs/esm-billing-app": {
     "serviceTypes": "609afe4f-d539-4dfe-896d-0b9897d0ee4a",
     "defaultCurrency": "UGX",
     "showEditBillButton": true
@@ -1338,7 +1324,7 @@
   "@openmrs/esm-bed-management-app": {
     "admissionLocationTagName": "Admission Location"
   },
-  "@epcare/esm-report-builder": {
+  "@openmrs/esm-report-builder": {
     "etlTasks": {
       "tasks": [
         "Setup Mamba ETL",

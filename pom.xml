@@ -194,7 +194,7 @@
 		<attachmentsVersion>4.0.0</attachmentsVersion>
 		<bahmniappointmentVersion>2.1.0</bahmniappointmentVersion>
 		<bedmanagementVersion>7.2.0</bedmanagementVersion>
-		<billingVersion>2.3.0</billingVersion>
+		<billingVersion>2.5.0</billingVersion>
 		<calculationVersion>2.0.0</calculationVersion>
 		<cohortModuleVersion>3.7.3</cohortModuleVersion>
 		<dataEntryStatisticsVersion>1.8.0</dataEntryStatisticsVersion>
@@ -222,7 +222,7 @@
 		<stockmanagementVersion>3.0.0</stockmanagementVersion>
 		<teleconsultationVersion>2.0.0</teleconsultationVersion>
 		<ugandareportsetlVersion>1.0.0-SNAPSHOT</ugandareportsetlVersion>
-		<reportbuilderVersion>1.0.0</reportbuilderVersion>
+		<reportbuilderVersion>1.0.1</reportbuilderVersion>
 		<ugandaemrSyncVersion>3.0.4</ugandaemrSyncVersion>
 		<ugandaemrVersion>5.1.0</ugandaemrVersion>
 		<webservices.restModuleVersion>3.5.0</webservices.restModuleVersion>

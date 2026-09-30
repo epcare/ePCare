@@ -5,7 +5,7 @@ echo "Cleaning up previous build artifacts ..."
 rm -rf frontend
 # Assemble assets
 echo "Assembling assets ..."
-npx --legacy-peer-deps openmrs@latest assemble \
+npx --legacy-peer-deps openmrs@next assemble \
   --manifest \
   --mode config \
   --config ./configuration/spa-build-config.json \
@@ -13,11 +13,10 @@ npx --legacy-peer-deps openmrs@latest assemble \
 # Build assets
 echo "Building assets for ePcare..."
 CWD=$(pwd)
-npx --legacy-peer-deps openmrs@latest build \
+npx --legacy-peer-deps openmrs@next build \
   --build-config ./configuration/spa-build-config.json \
   --target ./frontend \
-  --page-title "ePcare" \
-  --support-offline false
+  --page-title "ePcare"
 # Copy required files
 echo "Copying required files ..."
 cp -r "${CWD}/assets/" "${CWD}/frontend"
