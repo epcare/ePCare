@@ -1218,7 +1218,8 @@
   "@openmrs/esm-billing-app": {
     "serviceTypes": "609afe4f-d539-4dfe-896d-0b9897d0ee4a",
     "defaultCurrency": "UGX",
-    "showEditBillButton": true
+    "showEditBillButton": true,
+    "country": "Uganda"
   },
   "@epcare/esm-procedure-orders-app": {
     "procedureOrderTypeUuid": "b4a7c280-369e-4d12-9ce8-18e36783fed6",
