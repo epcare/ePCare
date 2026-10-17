@@ -1210,7 +1210,7 @@
       },
       "start-visit-button-slot2": {
         "remove": [
-          "patient-search-start-visit-button"
+          "start-visit-form-button"
         ]
       }
     }
