@@ -1298,6 +1298,9 @@
     "imagingImagesConceptUuid": "7cac8397-53cd-4f00-a6fe-028e8d743f8e"
   },
   "@ugandaemr/esm-patient-queues-app": {
+    "receptionDashboardPrivilege": "View Reception Menu",
+    "triageDashboardPrivilege": "App: patientQueue.triage.dashboard",
+    "clinicianDashboardPrivilege": "App: patientQueue.clinician.dashboard",
     "showExtraVisitAttributesSlot": true
   },
   "core": {
