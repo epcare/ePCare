@@ -394,6 +394,10 @@
       "src": "/openmrs/spa/logo-white.svg",
       "alt": "UgandaEMR+ logo"
     },
+    "layout": {
+      "variant": "wide",
+      "panelWidth": 400
+    },
     "sections": [
       "demographics",
       "contact",
@@ -404,6 +408,7 @@
       {
         "id": "nextOfKin",
         "name": "Next of Kin Details",
+        "description": "Name, phone",
         "fields": [
           "nextOfKinName",
           "nextOfkinPhone"
