@@ -43,7 +43,8 @@
     "@epcare/esm-laboratory-management-app": "next",
     "@epcare/esm-medical-supply-dispensing-app": "next",
     "@epcare/esm-medical-supply-orders-app": "next",
-    "@epcare/esm-procedure-orders-app": "next"
+    "@epcare/esm-procedure-orders-app": "next",
+    "@epcare/esm-caremodels-app": "next"
   },
   "importmap": "/openmrs/spa/importmap.json",
   "apiUrl": "/openmrs/",

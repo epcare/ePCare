@@ -1224,7 +1224,12 @@
     "serviceTypes": "609afe4f-d539-4dfe-896d-0b9897d0ee4a",
     "defaultCurrency": "UGX",
     "showEditBillButton": true,
-    "country": "Uganda"
+    "country": "Uganda",
+    "Display conditions": {
+      "privileges": [
+        "Manage Billing"
+      ]
+    }
   },
   "@epcare/esm-procedure-orders-app": {
     "procedureOrderTypeUuid": "b4a7c280-369e-4d12-9ce8-18e36783fed6",
