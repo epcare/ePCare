@@ -196,9 +196,11 @@
 		<bedmanagementVersion>7.2.0</bedmanagementVersion>
 		<billingVersion>2.5.0</billingVersion>
 		<calculationVersion>2.0.0</calculationVersion>
+		<caremodelsVersion>1.0.1</caremodelsVersion>
 		<cohortModuleVersion>3.7.3</cohortModuleVersion>
 		<dataEntryStatisticsVersion>1.8.0</dataEntryStatisticsVersion>
 		<emrapiVersion>3.4.0</emrapiVersion>
+		<epcare-content.version>1.0.10</epcare-content.version>
 		<eventVersion>4.0.0</eventVersion>
 		<fhir2Version>4.1.0</fhir2Version>
 		<htmlwidgetsVersion>2.0.1</htmlwidgetsVersion>
@@ -212,22 +214,21 @@
 		<openconceptlabModuleVersion>3.1.0</openconceptlabModuleVersion>
 		<orderexpansionVersion>5.1.0</orderexpansionVersion>
 		<orderTemplatesVersion>2.2.0</orderTemplatesVersion>
+		<patientdocumentsVersion>1.2.0</patientdocumentsVersion>
 		<patientFlagsVersion>3.0.10</patientFlagsVersion>
 		<patientqueueingVersion>2.0.1</patientqueueingVersion>
+		<reportbuilderVersion>1.0.2</reportbuilderVersion>
+		<reportingVersion>2.1.0</reportingVersion>
 		<reportingCompatibilityVersion>2.10.0</reportingCompatibilityVersion>
 		<reportingRestVersion>2.0.0</reportingRestVersion>
-		<reportingVersion>2.1.0</reportingVersion>
 		<serializationxstreamVersion>0.3.0</serializationxstreamVersion>
 		<spaModuleVersion>2.0.0</spaModuleVersion>
 		<stockmanagementVersion>3.0.0</stockmanagementVersion>
-		<teleconsultationVersion>2.0.0</teleconsultationVersion>
-		<ugandareportsetlVersion>1.0.0</ugandareportsetlVersion>
-		<reportbuilderVersion>1.0.2</reportbuilderVersion>
-		<ugandaemrSyncVersion>3.0.4</ugandaemrSyncVersion>
-		<ugandaemrVersion>5.1.0</ugandaemrVersion>
-		<webservices.restModuleVersion>3.5.0</webservices.restModuleVersion>
-		<patientdocumentsVersion>1.2.0</patientdocumentsVersion>
 		<tasksVersion>2.1.0</tasksVersion>
-		<epcare-content.version>1.0.10</epcare-content.version>
+		<teleconsultationVersion>2.0.0</teleconsultationVersion>
+		<ugandaemrVersion>5.1.0</ugandaemrVersion>
+		<ugandaemrSyncVersion>3.0.4</ugandaemrSyncVersion>
+		<ugandareportsetlVersion>1.0.0</ugandareportsetlVersion>
+		<webservices.restModuleVersion>3.5.0</webservices.restModuleVersion>
 	</properties>
 </project>
