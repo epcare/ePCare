@@ -200,7 +200,7 @@
 		<cohortModuleVersion>3.7.3</cohortModuleVersion>
 		<dataEntryStatisticsVersion>1.8.0</dataEntryStatisticsVersion>
 		<emrapiVersion>3.4.0</emrapiVersion>
-		<epcare-content.version>1.0.10</epcare-content.version>
+		<epcare-content.version>1.0.11</epcare-content.version>
 		<eventVersion>4.0.0</eventVersion>
 		<fhir2Version>4.1.0</fhir2Version>
 		<htmlwidgetsVersion>2.0.1</htmlwidgetsVersion>
