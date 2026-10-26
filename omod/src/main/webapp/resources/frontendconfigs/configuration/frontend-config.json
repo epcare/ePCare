@@ -1351,5 +1351,69 @@
         "etl-module-health"
       ]
     }
+  },
+  "@ugandaemr/esm-ugandaemr-app": {
+    "menuItems": [
+      {
+        "name": "Bed Management",
+        "icon": "hospital-bed",
+        "path": "bed-management"
+      },
+      {
+        "name": "Supplies Dispensing",
+        "icon": "medication",
+        "path": "supplies-dispensing"
+      },
+      {
+        "name": "Form Builder",
+        "icon": "document-add",
+        "path": "form-builder"
+      },
+      {
+        "name": "System Admin",
+        "icon": "settings",
+        "path": "system-admin"
+      },
+      {
+        "name": "Legacy Admin",
+        "icon": "user",
+        "href": "/openmrs/admin/index.htm"
+      },
+      {
+        "name": "Cohort Builder",
+        "icon": "events",
+        "path": "cohort-builder"
+      },
+      {
+        "name": "Form Render",
+        "icon": "document-import",
+        "path": "form-render-test"
+      },
+      {
+        "name": "Dispensing",
+        "icon": "medication",
+        "path": "dispensing"
+      },
+      {
+        "name": "Report Builder",
+        "icon": "report-data",
+        "path": "report-builder"
+      },
+      {
+        "name": "Run Reports",
+        "icon": "play",
+        "path": "report-builder/run"
+      },
+      {
+        "name": "Billable Services",
+        "icon": "receipt",
+        "path": "billable-services"
+      },
+      {
+        "name": "Care Model",
+        "icon": "meet",
+        "path": "care-models-admin"
+      }
+    ]
   }
 }
